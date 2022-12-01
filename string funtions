@@ -1,0 +1,32 @@
+CHAR_LENGTH(): Doesn’t work for SQL Server. Use LEN() for SQL Server. This function is used to find the length of a word.
+Syntax: SELECT char_length('Hello!');
+
+
+CHARACTER_LENGTH(): Doesn’t work for SQL Server. Use LEN() for SQL Server. This function is used to find the length of a line.
+Syntax: SELECT CHARACTER_LENGTH('lahari naga sahithi');
+
+
+CONCAT(): This function is used to add two words or strings.
+Syntax: SELECT 'lahari' || ' ' || 'nagasahithi' FROM dual;
+
+
+CONCAT_WS(): This function is used to add two words or strings with a symbol as concatenating symbol.
+Syntax: SELECT CONCAT_WS('_', 'sasi', 'ece', 'c');
+
+FIND_IN_SET(): This function is used to find a symbol from a set of symbols.
+Syntax: SELECT FIND_IN_SET('b', 'a, b, c, d, e, f');
+
+
+FORMAT(): This function is used to display a number in the given format.
+Syntax: Format("0.981", "Percent");
+
+
+INSERT(): This function is used to insert the data into a database.
+Syntax: INSERT INTO database (deptno,ename) VALUES (5000, 'abc');
+
+
+INSTR(): This function is used to find the occurrence of an alphabet.
+Syntax: INSTR('lahari naga sahithi', 'a');
+
+
+
